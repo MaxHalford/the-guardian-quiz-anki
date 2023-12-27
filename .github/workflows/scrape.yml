@@ -25,6 +25,10 @@ jobs:
         run: |
           jupyter nbconvert --execute scrape.ipynb
 
+      - name: Refresh Anki cards
+        run: |
+          python make_anki_cards.py
+
       - name: Commit and push if it changed
         if: always()
         run: |-
