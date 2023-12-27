@@ -1,0 +1,1 @@
+This is me scraping Thomas Eaton's [weekly quiz](https://www.theguardian.com/theguardian/series/the-quiz-thomas-eaton) in The Guardian. The [scrape.ipynb](scrape.ipynb) notebook contains the code to scrape the quiz and save it as a JSON file. It is run weekly via a GitHub Action.
