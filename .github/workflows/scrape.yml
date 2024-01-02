@@ -23,7 +23,7 @@ jobs:
 
       - name: Execute Jupyter Notebook
         run: |
-          jupyter nbconvert --execute scrape.ipynb
+          jupyter nbconvert --execute scrape.ipynb --to notebook
 
       - name: Refresh Anki cards
         run: |
